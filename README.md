@@ -1,38 +1,29 @@
-# 🚀 Quotes Generator
+# 🚀 Quote App
 
-A Flutter application built using modern architecture and clean code practices.  
-This project demonstrates UI design, state management, and scalable app structure.
+A simple Flutter application that fetches and displays random quotes from an API.  
+Each button tap generates a new quote dynamically.
 
 ---
 
 ## 📱 Features
 
-- Clean and responsive UI
-- BLoC / Cubit state management
-- API integration 
-- Fast performance
-- Modular code structure
-- Error handling
+- Fetches random quotes from API
+- New quote generated on button tap
+- Clean UI with Flutter
+- Simple and fast interaction
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ App Screenshot
 
-### Home Screen
-<img width="518" height="870" alt="image" src="https://github.com/user-attachments/assets/f41aed28-c1a8-454f-a4d8-37e3dfece317" />
+<img width="375" height="794" alt="image" src="https://github.com/user-attachments/assets/5f7643a3-ded2-484b-be9e-da1df44714a4" />
 
-
-### Detail Screen
-![Detail Screen](assets/screenshots/detail.png)
-
-### Other Screen
-![Other Screen](assets/screenshots/other.png)
 
 ---
 
-## 🎥 Demo
+## 🎥 Demo (Optional)
 
-![App Demo](assets/screenshots/demo.gif)
+![Demo](assets/screenshots/demo.gif)
 
 ---
 
@@ -40,10 +31,14 @@ This project demonstrates UI design, state management, and scalable app structur
 
 - Flutter
 - Dart
-- BLoC / Cubit
-- REST API (if used)
-- Material Design
+- REST API
+- BLoC 
 
 ---
 
-## 📂 Project Structure
+## 🚀 Run Project
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+flutter pub get
+flutter run
